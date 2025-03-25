@@ -1,0 +1,115 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+/* Heading */
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+
+/* Add Button */
+button {
+    background: #ff7eb3;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff5a91;
+}
+
+/* Search Bar */
+#search {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Books Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+thead {
+    background: #ff7eb3;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    font-weight: bold;
+}
+
+tr:hover {
+    background: rgba(255, 126, 179, 0.2);
+}
+
+/* Delete Button */
+button.delete {
+    background: crimson;
+    padding: 6px 10px;
+    font-size: 0.9rem;
+}
+
+button.delete:hover {
+    background: darkred;
+}
